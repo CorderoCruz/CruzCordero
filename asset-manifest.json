@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CruzCordero/static/css/main.a04a033a.css",
-    "main.js": "/CruzCordero/static/js/main.1dd91c60.js",
+    "main.js": "/CruzCordero/static/js/main.cbb7b2a7.js",
     "index.html": "/CruzCordero/index.html",
     "main.a04a033a.css.map": "/CruzCordero/static/css/main.a04a033a.css.map",
-    "main.1dd91c60.js.map": "/CruzCordero/static/js/main.1dd91c60.js.map"
+    "main.cbb7b2a7.js.map": "/CruzCordero/static/js/main.cbb7b2a7.js.map"
   },
   "entrypoints": [
     "static/css/main.a04a033a.css",
-    "static/js/main.1dd91c60.js"
+    "static/js/main.cbb7b2a7.js"
   ]
 }
