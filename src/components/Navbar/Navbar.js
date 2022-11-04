@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
@@ -18,14 +17,14 @@ export default function Navbar() {
 
   return (
     <header className='navbar-container'>
-      <Link className='main-name' to='/'>
+      <a className='main-name' to='/'>
         <a>CRUZ</a>
-      </Link>
+      </a>
       <nav ref={navRef}>
         <div className='links'>
-          <Link className='main-name-two' to='/'>
+          <a className='main-name-two' to='/'>
             <a>CRUZ</a>
-          </Link>
+          </a>
           <div className='link-responsive-nav'>
             <a href={linkedInUrl}>
               <FontAwesomeIcon icon={faLinkedin} />
@@ -33,9 +32,9 @@ export default function Navbar() {
             <a href={githubUrl}>
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <Link to='/contact'>
+            <a to='/contact'>
               <FontAwesomeIcon icon={faEnvelope} />
-            </Link>
+            </a>
             <a>
               {/* This will download my resume */}
               <FontAwesomeIcon icon={faFileArrowDown} />
