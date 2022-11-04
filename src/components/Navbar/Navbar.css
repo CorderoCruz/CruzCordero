@@ -111,10 +111,10 @@ header .nav-btn {
     gap: 0;
     transition: .5s;
     background: linear-gradient(
-      to bottom,
-      black, 
+      to bottom right,
+      black,
       var(--five-blue)
-    );
+      );
     transform: translateY(-100vh)
   }
 

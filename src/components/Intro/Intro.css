@@ -9,8 +9,6 @@
 
 .home-slide-container {
   padding: 10px;
-  height: max-content;
-  width: max-content;
   background: linear-gradient(
     to bottom right,
     black,
@@ -33,7 +31,9 @@
 }
 
 .hook {
-  font-size: 2rem; 
+  font-size: 2rem;
+  height: auto; 
+  word-wrap: break-word;
 }
 
 @media only screen and (max-width: 900px) {
@@ -44,6 +44,12 @@
   .occupancy {
     font-size: 2rem;
   }
+
+  .hook {
+    font-size: 1.5rem;
+
+  }
+
 }
 
 @media only screen and (max-width: 560px) {
@@ -54,5 +60,9 @@
   .occupancy {
     font-size: 1.3rem;
     text-align: center;
+  }
+
+  .hook {
+    font-size: 1rem;
   }
 }

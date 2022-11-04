@@ -1,5 +1,5 @@
 {
-  "homepage": "https://corderocruz.github.io/cruz-cordero",
+  "homepage": "https://corderocruz.github.io/CruzCordero",
   "name": "cruz-cordero",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,8 @@
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    
   }
 }
