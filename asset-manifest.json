@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cruz-cordero/static/css/main.becb162a.css",
+    "main.js": "/cruz-cordero/static/js/main.4c43aac6.js",
+    "index.html": "/cruz-cordero/index.html",
+    "main.becb162a.css.map": "/cruz-cordero/static/css/main.becb162a.css.map",
+    "main.4c43aac6.js.map": "/cruz-cordero/static/js/main.4c43aac6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.becb162a.css",
+    "static/js/main.4c43aac6.js"
+  ]
+}
