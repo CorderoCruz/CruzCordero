@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFile, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Navbar.css";
 
@@ -38,7 +38,7 @@ export default function Navbar() {
             </Link>
             <a>
               {/* This will download my resume */}
-              <FontAwesomeIcon icon={faFile} />
+              <FontAwesomeIcon icon={faFileArrowDown} />
             </a>
           </div>
           <button className='nav-btn nav-close-btn' onClick={showNav}>

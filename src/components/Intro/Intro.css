@@ -1,0 +1,58 @@
+.home-slide {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-slide-container {
+  padding: 10px;
+  height: max-content;
+  width: max-content;
+  background: linear-gradient(
+    to bottom right,
+    black,
+    var(--one-blue)
+    );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.firstname, .lastname {
+  text-align: center;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+/* typewriter animation */
+.occupancy {
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+
+.hook {
+  font-size: 2rem; 
+}
+
+@media only screen and (max-width: 900px) {
+  .firstname, .lastname {
+    font-size: 6rem;
+  }
+
+  .occupancy {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .firstname, .lastname { 
+    font-size: 3.5rem;
+  }
+
+  .occupancy {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}

@@ -1,20 +1,22 @@
 .navbar-container {
   height: auto;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
-  padding: 50px; 
+  padding: 50px 300px; 
   color: white;
-  background: linear-gradient(
-    to bottom,
-    black, 
-    var(--five-blue)
-  );
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: 5px 2px 10px 10px black;
   font-family: "Heebo";
+  background: linear-gradient(
+    to top right,
+    black, 
+    var(--five-blue)
+  );
 }
+
 
 .link-responsive-nav {
   display: flex;
@@ -50,7 +52,6 @@ svg {
 .links {
   display: flex;
   gap: 50px;
-  cursor: pointer;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -62,6 +63,7 @@ nav {
 
 .links a:hover {
   color: var(--two-blue);
+  cursor: pointer;
 }
 
 header .nav-btn {
@@ -84,7 +86,13 @@ header .nav-btn {
   font-weight: bolder;
 }
 
-@media only screen and (max-width: 1051px) {
+@media only screen and (max-width: 1090px) {
+  .navbar-container {
+    padding: 50px 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   header .nav-btn {
     display: inline-block;
     opacity: 1;
@@ -132,4 +140,10 @@ header .nav-btn {
   }
 
 
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-container {
+    padding: 50px 20px;
+  }
 }

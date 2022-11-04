@@ -1,8 +1,15 @@
-import Navbar from "../.././src/components/Navbar/Navbar";
+import Intro from ".././components/Intro/Intro";
+import AboutMe from "../components/AboutMe/AboutMe";
+
 export default function LandingPage() {
   return (
     <div>
-      <Navbar />
+      <div>
+        <Intro />
+      </div>
+      <div>
+        <AboutMe />
+      </div>
     </div>
   );
 }
