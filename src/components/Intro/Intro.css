@@ -18,13 +18,18 @@
   -webkit-background-clip: text;
 }
 
-.firstname, .lastname {
+.firstname, .lastname{
   text-align: center;
   font-size: 10rem;
   font-weight: bolder;
+  letter-spacing: 1rem;
 }
 
-/* typewriter animation */
+
+
+
+
+
 .occupancy {
   font-size: 3.2rem;
   font-weight: bolder;

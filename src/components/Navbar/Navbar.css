@@ -3,7 +3,7 @@
   position: fixed;
   width: 100vw;
   top: 0;
-  padding: 50px 300px; 
+  padding: 20px 300px; 
   color: white;
   display: flex;
   align-items: center;
@@ -86,13 +86,12 @@ header .nav-btn {
   font-weight: bolder;
 }
 
-@media only screen and (max-width: 1090px) {
-  .navbar-container {
-    padding: 50px 100px;
-  }
-}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1051px) {
+  
+  .navbar-container {
+    padding: 20px 50px
+  }
   header .nav-btn {
     display: inline-block;
     opacity: 1;
@@ -144,6 +143,6 @@ header .nav-btn {
 
 @media only screen and (max-width: 400px) {
   .navbar-container {
-    padding: 50px 20px;
+    padding: 20px 30px
   }
 }
