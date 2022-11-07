@@ -37,6 +37,11 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .home-slide-container {
+    z-index: -1;
+    transform: rotate(-90deg);
+  }
+
   .firstname, .lastname {
     font-size: 6rem;
   }
