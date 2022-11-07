@@ -87,13 +87,17 @@
 }
 
 @media only screen and (max-width: 720px) {
+  .aboutme-container {
+    padding: 10px;
+    gap: 50px;
+  }
   .image-container {
     height: 450px;
     width: 450px;
   }
 
   .aboutme-left {
-    padding: 50px;
+    padding: 10px 20px;
   }
 
   .experience-container {
@@ -105,6 +109,10 @@
   .image-container {
     height: 400px;
     width: 400px;
+  }
+
+  .aboutme-text-container {
+    justify-content: center;
   }
 
   .experience-container {
