@@ -15,6 +15,7 @@
     black, 
     var(--five-blue)
   );
+  z-index: 100;
 }
 
 

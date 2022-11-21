@@ -1,12 +1,12 @@
 .aboutme-container {
   width: 100%;
   height: 100vh;
-  padding: 50px;
   display: grid; 
   grid-template-columns: 1fr 1fr;
   color: white;
   justify-content: center;
   align-items: center;
+  padding: 100px 0px;
 }
 
 .aboutme-left {
@@ -14,7 +14,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 100px;
 }
 
 .aboutme-text-container {
@@ -27,7 +26,6 @@
   padding-right: 10px;
   text-decoration: underline;
   text-decoration-color: var(--one-blue);
-  text-decoration-style : inherit;
   text-decoration-thickness: 5px;
 }
 
@@ -66,18 +64,19 @@
 .image-container img {
   height: 100%;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 50px;
   object-fit: cover;
-  border: dotted 4px var(--one-blue);
-  box-shadow: 0px 10px 10px 5px black;
+  border: dashed 4px var(--one-blue);
+  box-shadow: 5px 20px 20px 10px black;
 }
 
 
-@media only screen and (max-width: 1520px) {
+@media only screen and (max-width: 1882px) {
 
   .aboutme-container {
     grid-template-columns: 1fr;
     height: auto;
+    gap: 100px;
   }
 
   .image-container {
@@ -88,7 +87,6 @@
 
 @media only screen and (max-width: 720px) {
   .aboutme-container {
-    padding: 10px;
     gap: 50px;
   }
   .image-container {
