@@ -1,7 +1,7 @@
 .projects-container {
   display: flex;
   height: auto;
-  background-color: var(--five-blue);
+  background-color: black;
   border-radius: 50px;
   z-index: -10;
   align-items: center;
@@ -11,7 +11,7 @@
   font-size: 2.5rem;
   color: white;
   text-decoration: underline;
-  text-decoration-color: var(--one-blue);
+  text-decoration-color: rgb(62, 62, 62);
   text-decoration-thickness: 5px;
   transform: rotate(-90deg);
   z-index: -10; 
@@ -76,13 +76,11 @@
   -webkit-backface-visibility: hidden;
 }
 
-.card-front {
-  background-color: var(--one-blue);
+.card-front, .card-back {
+  background-color: rgb(62, 62, 62);
+  cursor: pointer;
 }
 
-.card-back {
-  background-color: var(--three-blue);
-}
 /* End */
 
 
@@ -95,7 +93,7 @@
 
 .project h2 {
   text-decoration: underline;
-  text-decoration-color: var(--one-blue);
+  text-decoration-color: rgb(62, 62, 62);
   text-decoration-thickness: 4px;
 }
 

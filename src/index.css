@@ -18,13 +18,11 @@
 }
 
 body {
-  background: linear-gradient(to bottom,
-  black,
-  var(--four-blue));
+  color: black;
 }
 
 .content {
-  padding: 0px 200px;
+  padding: 0px 300px;
 }
 
 @media only screen and (max-width: 1350px) {

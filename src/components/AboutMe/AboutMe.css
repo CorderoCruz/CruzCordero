@@ -3,7 +3,6 @@
   height: 100vh;
   display: grid; 
   grid-template-columns: 1fr 1fr;
-  color: white;
   justify-content: center;
   align-items: center;
   padding: 100px 0px;
@@ -25,7 +24,7 @@
   font-size: 2.5rem;
   padding-right: 10px;
   text-decoration: underline;
-  text-decoration-color: var(--one-blue);
+  text-decoration-color: rgb(62, 62, 62);
   text-decoration-thickness: 5px;
 }
 
@@ -64,9 +63,9 @@
 .image-container img {
   height: 100%;
   width: 100%;
-  border-radius: 50px;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
   object-fit: cover;
-  border: dashed 4px var(--one-blue);
   box-shadow: 5px 20px 20px 10px black;
 }
 

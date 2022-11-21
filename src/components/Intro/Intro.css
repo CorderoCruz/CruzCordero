@@ -10,10 +10,10 @@
 .home-slide-container {
   padding: 10px;
   background: linear-gradient(
-    to bottom right,
-    black,
-    var(--one-blue)
-    );
+    to top,
+    black, 
+    rgb(71, 71, 71)
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
