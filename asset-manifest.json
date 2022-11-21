@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/CruzCordero/static/css/main.6df1d87b.css",
-    "main.js": "/CruzCordero/static/js/main.48423a06.js",
-    "static/media/Profile-Picture-transparent.jpg": "/CruzCordero/static/media/Profile-Picture-transparent.bf050792eab372b25688.jpg",
-    "index.html": "/CruzCordero/index.html",
-    "main.6df1d87b.css.map": "/CruzCordero/static/css/main.6df1d87b.css.map",
-    "main.48423a06.js.map": "/CruzCordero/static/js/main.48423a06.js.map"
+    "main.css": "/static/css/main.87da7334.css",
+    "main.js": "/static/js/main.87480526.js",
+    "static/media/one.png": "/static/media/one.9b9bdf25044c59bbb9ec.png",
+    "static/media/one.PNG": "/static/media/one.fb00286f0235d5104c18.PNG",
+    "static/media/Profile-Picture-transparent.jpg": "/static/media/Profile-Picture-transparent.bf050792eab372b25688.jpg",
+    "index.html": "/index.html",
+    "main.87da7334.css.map": "/static/css/main.87da7334.css.map",
+    "main.87480526.js.map": "/static/js/main.87480526.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df1d87b.css",
-    "static/js/main.48423a06.js"
+    "static/css/main.87da7334.css",
+    "static/js/main.87480526.js"
   ]
 }
