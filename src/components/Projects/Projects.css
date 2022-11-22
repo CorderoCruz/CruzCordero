@@ -1,146 +1,40 @@
-.projects-container {
+.projects-slide {
   display: flex;
   height: auto;
   background-color: black;
-  border-radius: 50px;
-  z-index: -10;
+  z-index: 10;
   align-items: center;
+  border-radius: 20px;
 }
 
-.project-title {
-  font-size: 2.5rem;
+.project-slide-title {
+  font-size: 1.5rem;
   color: white;
   text-decoration: underline;
   text-decoration-color: rgb(62, 62, 62);
   text-decoration-thickness: 5px;
   transform: rotate(-90deg);
-  z-index: -10; 
+  z-index: 20; 
 }
 
 .project-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.project-image-container {
-  height: 100%;
   width: 100%;
+  height: 100;
+  padding: 75px 75px 75px 0px;
 }
 
-
-.project {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  color: white;
-  padding: 50px;
-  gap: 20px;
-}
-
-
-/* Flipping the project card */
-.card-container {
-  min-width: 230px;
-  min-height: 230px;
-  max-width: 530px;
-  max-height: 530px;
-  perspective: 1000px;
-  z-index: 1000;
-}
-
-.card {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  transform-style: preserve-3d;
-  transition: 1s;
-  transform: perspective(700px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-}
-
-.card-front,
-.card-back {
-  border-radius: 15px;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: .3s;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.card-front, .card-back {
-  background-color: rgb(62, 62, 62);
-  cursor: pointer;
-}
-
-/* End */
-
-
-.project-content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  height: 100%;
-}
-
-.project h2 {
-  text-decoration: underline;
-  text-decoration-color: rgb(62, 62, 62);
-  text-decoration-thickness: 4px;
-}
-
-
-@media only screen and (max-width: 1920px) {
-  .projects-container {
-    padding: 50px;
+@media only screen and (max-width: 1080px) {
+  .projects-slide {
     flex-direction: column;
-    gap: 20px;
   }
 
-  .title-container {
-    width: 100%;
-  }
-
-  .project-title{
+  .project-slide-title {
     transform: none;
-    width: 100%;
-    text-align: end;
-  }
-}
-
-@media only screen and (max-width: 1340px) {
-  .project-content {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and  (max-width: 600px) {
-  .projects-container {
-    padding: 50px 10px;
   }
 
-  .project h2 {
-    text-align: center;
-  }
-
-  .project {
-    padding: 10px;
-  }
-
-  .project-title {
-    padding: 0;
-    text-align: center;
-  }
-  
-  .project-content {
-    gap: 20px;
+  .project-container {
+    padding: 50px 0px;
   }
 }

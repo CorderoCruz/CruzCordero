@@ -1,0 +1,108 @@
+
+.project {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project h2, .project-content h3 {
+  text-decoration: underline;
+}
+
+
+.card {
+  border-radius: 20px;
+  margin: 10px 0px;
+  position: relative;
+  height: 350px;
+  cursor: pointer;
+  transition: 200ms;
+  transform-style: preserve-3d;
+  transform: perspective(1500px) rotateY(var(--rotate-y, 0));
+}
+
+.card:hover {
+  scale: 1.01;
+  border: grey solid 1px;
+}
+
+.card.flip {
+  --rotate-y: 180deg
+}
+
+.card-front, .card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.card-front img, .card-back img {
+object-fit: cover;
+height: 100%;
+width: 100%;
+border-radius: 20px;
+}
+
+.card-back img {
+  opacity: 10%;
+  position: absolute;
+  background-clip: border-box;
+  background-color: black;
+}
+
+.back-links {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.links-container {
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px
+}
+
+.links-container svg {
+  height: 35px;
+  transition: .15s;
+  color: white;
+}
+
+.links-container svg:hover {
+  color: black;
+}
+
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: rgba(78, 78, 78, 0.464);
+}
+
+.card-back img {
+  background-color: rgba(0, 0, 0, 0.528);
+}
+
+@media only screen and (max-width: 1380px)  {
+  .project-content {
+    grid-template-columns: 1fr;
+  }
+}
